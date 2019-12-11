@@ -5,7 +5,7 @@
 module purge
 
 # Load anaconda
-module load python3.7
+module load python3.6
 
 port=$(shuf -i 6000-9999 -n 1)
 
