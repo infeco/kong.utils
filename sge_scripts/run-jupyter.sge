@@ -23,7 +23,7 @@ If you are working on campus, please open an iTerm window, run command
 ssh -L $port:localhost:$port $USER@kong.njit.edu
 
 If you are working off campus, you should already have ssh tunneling setup through HPC bastion host, 
-that you can directly login to prince with command
+that you can directly login to kong with command
 
 ssh $USER@kong
 
@@ -39,7 +39,7 @@ The Jupyter Notebook is running at: $(hostname)
 
 the URL is something: http://localhost:${port}/?token=XXXXXXXX (see your token below)
 
-you should be able to connect to jupyter notebook running remotly on prince compute node with above url
+you should be able to connect to jupyter notebook running remotly on kong compute node with above url
 
 EOF
 
